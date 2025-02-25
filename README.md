@@ -8,23 +8,6 @@
 - **React Frontend** – User-friendly interface for submitting and viewing reviews.
 - **Truffle Integration** – Streamlined smart contract deployment and testing.
 
-## 📂 Project Structure
-ProductReviewsdApp/
-├── contracts/            # Solidity smart contract for product reviews
-│   └── ProductReview.sol
-├── migrations/           # Truffle scripts for deploying contracts
-│   └── 2_deploy_contracts.js
-├── test/                 # Placeholder for smart contract tests
-├── frontend/             # React app for user interaction
-│   ├── public/           # Static assets (HTML, images)
-│   ├── src/              # React source code (components, state management)
-│   │   ├── App.js        # Main application component
-│   │   ├── index.js      # Entry point
-│   │   ├── config.js     # Blockchain connection settings
-├── truffle-config.js     # Truffle configuration file
-├── package.json          # Project dependencies
-└── package-lock.json     # Dependency lock file
-
 🎯 How It Works
 	1.	Users submit product reviews through the React frontend.
 	2.	Reviews are stored on the Ethereum blockchain via a smart contract.
